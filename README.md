@@ -124,7 +124,7 @@ router.get('/profile', authRequired, authController.profile);
 
 #### Swagger UI (группа Auth)
 
-В Swagger UI есть отдельная группа Auth с тремя эндпоинтами (register, login, profile). Для register/login токен не требуется, для profile — нужно нажать Authorize и ввести Bearer JWT.
+В Swagger UI есть отдельная группа Auth с тремя эндпоинтами (register, login, profile).
 
 ![Swagger UI — группа Auth](docs/images/image-1.png)
 
@@ -283,3 +283,4 @@ export function requirePermission(code) {
   - Иногда сложно разобраться с конфигурацией
   - Не всегда удобно настраивать под специфические задачи
   - Может быть избыточен для простых проектов
+
