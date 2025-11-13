@@ -108,6 +108,7 @@ exec(`CREATE INDEX IF NOT EXISTS idx_todos_user ON todos(user_id)`);
 ## Схема базы данных 
 ![схема БД](docs/images/image-2.png)
 
+![схема полная](docs/images/image.png)
 
 
 
@@ -283,4 +284,5 @@ export function requirePermission(code) {
   - Иногда сложно разобраться с конфигурацией
   - Не всегда удобно настраивать под специфические задачи
   - Может быть избыточен для простых проектов
+
 
